@@ -35,7 +35,7 @@ class LoginController
                     echo json_encode([
                         'codigo' => 1,
                         'mensaje' => "Sesión iniciada correctamente. Bienvenido $nombre",
-                        'redireccion' => '/login_prueba2/menu'
+                        'redireccion' => '/2/menu'
                     ]);
                 } else {
                     echo json_encode([

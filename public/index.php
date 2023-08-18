@@ -10,7 +10,7 @@ use Controllers\MenuController;
 
 $router = new Router();
 $router->setBaseURL('/' . $_ENV['APP_NAME']);
-// /login_prueba/menu/API/closeSessionAPI
+// /login_prueba2/menu/API/closeSessionAPI
 $router->get('/', [LoginController::class,'index']);
 $router->post('/API/login', [LoginController::class,'loginAPI']);
 $router->get('/menu', [MenuController::class,'index']);
