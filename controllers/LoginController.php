@@ -35,7 +35,7 @@ class LoginController
                     echo json_encode([
                         'codigo' => 1,
                         'mensaje' => "Sesión iniciada correctamente. Bienvenido $nombre",
-                        'redireccion' => '/login_prueba/menu'
+                        'redireccion' => '/login_prueba2/menu'
                     ]);
                 } else {
                     echo json_encode([
@@ -49,7 +49,7 @@ class LoginController
                     'mensaje' => 'Usuario no encontrado'
                 ]);
             }
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             echo json_encode([
                 'detalle' => $e->getMessage(),
                 'codigo' => 0,

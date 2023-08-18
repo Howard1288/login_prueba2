@@ -3,9 +3,10 @@ const formLogin = document.querySelector('form');
 const closeSessionRequest = async e => {
     e.preventDefault();
 
+   
 
     try {
-        const url = "/login_prueba/API/closeSession"; 
+        const url = "/login_prueba2/API/closeSession"; 
      
         const headers = new Headers();
         headers.append("X-Requested-With", "fetch");
@@ -18,7 +19,13 @@ const closeSessionRequest = async e => {
         const respuesta = await fetch(url,config);
         
         
-        window.location.href = '/login_prueba/';
+        window.location.href = '/login_prueba2/';
+            ///SE AGREGO ESTA ESTRUCTURA DE CODIGO PARA REDIRECCIONAR AL MENU
+        // if (redireccion) {
+        //      window.location.href = redireccion;
+        //     return;
+        // }
+
 
       
     } catch (error) {

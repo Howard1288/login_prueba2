@@ -38,13 +38,13 @@
                         <ul class="dropdown-menu  dropdown-menu-dark " id="dropwdownRevision" style="margin: 0;">
                             <!-- <h6 class="dropdown-header">Información</h6> -->
                             <li>
-                                <a class="dropdown-item nav-link text-white " href="/login_prueba/alumnos"><i
+                                <a class="dropdown-item nav-link text-white " href="/login_prueba2/alumnos"><i
                                         class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>Alumno</a>
-                                <a class="dropdown-item nav-link text-white " href="/login_prueba/materias"><i
+                                <a class="dropdown-item nav-link text-white " href="/login_prueba2/materias"><i
                                         class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>Materia</a>
-                                <a class="dropdown-item nav-link text-white " href="/login_prueba/calificaciones"><i
+                                <a class="dropdown-item nav-link text-white " href="/login_prueba2/calificaciones"><i
                                         class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>Calificaciones</a>
-                                <a class="dropdown-item nav-link text-white " href="/login_prueba/reportes"><i
+                                <a class="dropdown-item nav-link text-white " href="/login_prueba2/reportes"><i
                                         class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>reporte_alumnos</a>
                             </li>
 
